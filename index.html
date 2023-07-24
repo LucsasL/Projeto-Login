@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="Estilos/style.css">
     <link rel="stylesheet" href="Estilos/media-query.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     
@@ -29,16 +31,26 @@
 
                 <form action="Cadastro.js" method="post" autocomplete="off">
 
-                    <label for="inome">Username: </label>
-                        <input type="text" name="nome" id="inome" required placeholder="Seu e-mail"> <br>
+                        <div class="campos">
+                            <span class="material-icons">person</span>
+                            <input type="text" name="nome" id="inome" required placeholder="Seu e-mail">
+                            <label for="inome">Username: </label>
+                        </div>
 
-                    <label for="isenha">Senha: </label>
-                        <input type="password" name="senha" id="isenha" required placeholder="Sua senha">
+                        <div class="campos">
+                            <span class="material-icons">vpn-key</span>
+                            <input type="password" name="senha" id="isenha" required placeholder="Sua senha">
+                            <label for="isenha">Senha: </label>
+                        </div>
 
-                    <p>
-                        <input type="submit" value="Enviar" size="30px">
-                
-                    </p>
+                        <div id="botao">
+                            <input type="submit" value="Enviar">
+                        </div>
+
+                        <div id="senha">
+                            <a href="#">Esqueci a senha</a>
+                            <span class="material-icons">email</span>
+                        </div>
                 </form>
             </div>
         </section>

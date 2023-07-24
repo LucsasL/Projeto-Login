@@ -77,6 +77,48 @@ section#login > div#imagem {
     margin-bottom: 0px;
 }
 
+div > label {
+    display: none;
+}
+div#campos > span {
+    width: 20%;
+}
+
+div#campos > input {
+    width: 80%;
+}
+
+form > div#botao > input[submit] {
+    background-color: var(--cor0);
+    color: white;
+
+    width: 100%;
+    margin: 10px 0px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+div#botao > input[text] {
+    border: 0px;
+}
+
+form div#senha {
+    display: block;
+    padding: 5px;
+
+    text-align: center;
+
+    border: 2px solid var(--cor0);
+    border-radius: 8px;
+}
+
+div#senha a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
 footer {
     background-color: black;
     color: white;

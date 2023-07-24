@@ -34,12 +34,16 @@
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
+        height: 100%;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
+        height: 100%;
+        position: relative;
+        top: 3.6%;
     }
 }
