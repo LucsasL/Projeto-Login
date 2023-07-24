@@ -2,6 +2,14 @@
 
 @media screen and (min-width: 768px) {
     body {
-        background-image: linear-gradient(to bottom, purple, rgb(107, 201, 233));
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        
     }
 }
