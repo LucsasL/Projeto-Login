@@ -6,7 +6,7 @@
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
     }
 
     section#login > div#imagem {
@@ -21,6 +21,10 @@
     section#login > div#form {
         float: right;
         width: 65%;
+    }
+
+    div#form > p {
+        font-size: 1em;
     }
 }
 
@@ -37,6 +41,10 @@
         float: left;
         width: 50%;
         height: 100%;
+    }
+
+    div#form > p {
+        font-size: 1em;
     }
 
     section#login > div#imagem {

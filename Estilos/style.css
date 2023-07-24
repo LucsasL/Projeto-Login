@@ -46,6 +46,7 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    transition: width .5s, height .5s;
 }
 
 section#login > div#form {
@@ -55,11 +56,12 @@ section#login > div#form {
 
 div#form > h1 {
     text-align: center;
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 div#form > p {
     padding: 10px;
+    font-size: 0.8em;
 }
 
 input {
@@ -77,46 +79,81 @@ section#login > div#imagem {
     margin-bottom: 0px;
 }
 
-div > label {
+label {
     display: none;
 }
-div#campos > span {
-    width: 20%;
+
+form > div.campos {
+    margin: 5px 0px;
 }
 
-div#campos > input {
-    width: 80%;
+div.campos > input {
+    width: calc(100% - 44px);
+    height: 100%;
+    margin: 10px 0px;
+
+    border: 1px solid black;
 }
 
-form > div#botao > input[submit] {
+div.campos > span {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+
+    transform: translateY(8px);
+}
+
+div#botao {
+    background-color: var(--cor0);
+    border: 0px;
+    border-radius: 8px;
+
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type=submit] {
     background-color: var(--cor0);
     color: white;
 
     width: 100%;
-    margin: 10px 0px;
+    height: 40px;
 
+    font-weight: bold;
+
+    border: none;
     border-radius: 8px;
-
     cursor: pointer;
 }
 
-div#botao > input[text] {
-    border: 0px;
+input[type=submit]:hover {
+    background-color: #2d6462;
 }
 
-form div#senha {
+a#senha {
     display: block;
+    color: var(--cor0);
+
+    width: 100%;
+    height: 40px;
     padding: 5px;
 
+    text-decoration: none;
+    font-weight: bold;
     text-align: center;
 
     border: 2px solid var(--cor0);
     border-radius: 8px;
 }
 
-div#senha a {
-    color: var(--cor0);
-    text-decoration: none;
+a#senha > span {
+    font-size: 0.8em;
+}
+
+a#senha:hover {
+    text-decoration: underline;
 }
 
 footer {

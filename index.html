@@ -33,13 +33,13 @@
 
                         <div class="campos">
                             <span class="material-icons">person</span>
-                            <input type="text" name="nome" id="inome" required placeholder="Seu e-mail">
-                            <label for="inome">Username: </label>
+                            <input type="email" name="email" id="iemail" required placeholder="Seu e-mail" maxlength="30">
+                            <label for="inome">Login: </label>
                         </div>
 
                         <div class="campos">
-                            <span class="material-icons">vpn-key</span>
-                            <input type="password" name="senha" id="isenha" required placeholder="Sua senha">
+                            <span class="material-icons">lock</span>
+                            <input type="password" name="senha" id="isenha" required placeholder="Sua senha" minlength="8" maxlength="20">
                             <label for="isenha">Senha: </label>
                         </div>
 
@@ -47,10 +47,7 @@
                             <input type="submit" value="Enviar">
                         </div>
 
-                        <div id="senha">
-                            <a href="#">Esqueci a senha</a>
-                            <span class="material-icons">email</span>
-                        </div>
+                        <a href="#" id="senha">Esqueci a senha <span class="material-icons">email</span></a>
                 </form>
             </div>
         </section>
