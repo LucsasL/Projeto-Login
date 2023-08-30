@@ -8,7 +8,7 @@
 
  Neste desafio, o que foi posto em cheque foi as competências em relação a: 
 
-- ***formulários***,*** que são usados como forma de capturação e manipulação de dados para funcionamento de sistemas e aplicações;
+- ***formulários,*** que são usados como forma de capturação e manipulação de dados para funcionamento de sistemas e aplicações;
  
 - ***Media Queries*** e ***Media Features*** que são essenciais para um dinamismo e uma portabilidade em todos os dispositivos eletrônicos;
 
@@ -17,5 +17,5 @@
  Há 4 estados em que o projeto pode aparecer, sendo eles o estado de *Smartphones* e *telas pequenas, Tablets* ou *Netbooks, Desktop* e *Telas Grandes*
 
 <p align="center">
- <a href="https://lucsasl.github.io/Projeto-Login/">Acesse a página do projeto clicando aqui</a>
+ <a href="https://lucsasl.github.io/Projeto-Login/" target="_blank" rel="noopener nooreferrer">Acesse a página do projeto clicando aqui 🔗</a>
  </p>
