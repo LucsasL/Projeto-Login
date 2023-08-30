@@ -16,10 +16,6 @@
 
  Há 4 estados em que o projeto pode aparecer, sendo eles o estado de *Smartphones* e *telas pequenas, Tablets* ou *Netbooks, Desktop* e *Telas Grandes*
 
- ![Dispositivos pequenos](Imagens/login-project-smartphone.png)
-
- ![Dispositivos Tablets](Imagens/login-project-tablets.png)
-
- ![Dispositivos de desktop](Imagens/login-project-desktop.png)
-
- ![Dispositivos com telas grandes](Imagens/login-project.png)
+<p align="center">
+ <a href="https://lucsasl.github.io/Projeto-Login/">Acesse a página do projeto clicando aqui</a>
+ </p>
